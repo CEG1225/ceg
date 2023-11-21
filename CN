@@ -1,3 +1,28 @@
+
+
+host, p14-buy.itunes.apple.com, direct
+
+#ios更新
+
+
+host-wildcard, dd.al, direct
+host-wildcard, train03.icu, direct
+host-keyword, tt.vg, direct
+host-suffix, gitlab.com, direct
+
+
+
+# 银行直连
+host-suffix, 95599.cn, direct
+host-suffix, abchina.com, direct
+host-suffix, bscabank.com, direct
+host-suffix, openaboc.cn, direct
+host-suffix, openaboc.com, direct
+host-suffix, openaboc.com.cn, direct
+
+
+# 绕过企业证书过期
+
 #!name=分流修正
 #!desc=修正某些被分流到外区的国内网站
 #!author=fmz200
