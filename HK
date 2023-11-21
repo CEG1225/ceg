@@ -7,12 +7,15 @@ host-keyword, hostloc.com, proxy
 host-keyword, yfamily.vercel.app, proxy
 host-keyword, xianyuwangluo.vip, proxy
 
-host-keyword, flycnb.tk, direct
+
 
 host-wildcard, ikuntool.com, direct
 host-keyword, applnn.cc, proxy
 host, txvlog.com, proxy
-host-keyword, apple, direct
+
+
+
+
 #!name = DNS防泄漏
 host-suffix, dnsleaktest.com, proxy
 host-suffix, dnsleak.com, proxy
