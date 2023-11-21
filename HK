@@ -1,4 +1,45 @@
 
+
+host-keyword, hostloc, proxy
+host-keyword, yckceo.com, proxy
+host-keyword, v.spwvpn.com, proxy
+host-keyword, hostloc.com, proxy
+host-keyword, yfamily.vercel.app, proxy
+host-keyword, xianyuwangluo.vip, proxy
+
+host-keyword, flycnb.tk, direct
+
+host-wildcard, ikuntool.com, direct
+host-keyword, applnn.cc, proxy
+host, txvlog.com, proxy
+host-keyword, apple, direct
+#!name = DNS防泄漏
+host-suffix, dnsleaktest.com, proxy
+host-suffix, dnsleak.com, proxy
+HOST-SUFFIX, expressvpn.com, PROXY
+HOST-SUFFIX, nordvpn.com, PROXY
+HOST-SUFFIX, surfshark.com, PROXY
+HOST-SUFFIX, ipleak.net, PROXY
+HOST-SUFFIX, perfect-privacy.com, PROXY
+HOST-SUFFIX, browserleaks.com, PROXY
+HOST-SUFFIX, browserleaks.org, PROXY
+HOST-SUFFIX, vpnunlimited.com, PROXY
+HOST-SUFFIX, whoer.net, PROXY
+HOST-SUFFIX, whrq.net, PROXY
+
+# Astrill
+HOST-SUFFIX, astrill.com, PROXY
+HOST-SUFFIX, astrill.org, PROXY
+HOST-SUFFIX, dnsleak.asn247.net, PROXY
+
+# Surfshark
+HOST-SUFFIX, surfshark.com, PROXY
+HOST-SUFFIX, surfsharkdns.com, PROXY
+
+# Pixelscan
+host-suffix, pixelscan.net, proxy
+
+host-keyword, discord, proxy
 # NAME: Telegram
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
