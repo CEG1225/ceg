@@ -1,0 +1,61 @@
+# NAME: TikTok
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2023-10-07 14:20:11
+# HOST: 3
+# HOST-KEYWORD: 2
+# HOST-SUFFIX: 20
+# USER-AGENT: 1
+# TOTAL: 26
+HOST,lf16-effectcdn.byteeffecttos-g.com,TikTok
+HOST,lf16-pkgcdn.pitaya-clientai.com,TikTok
+HOST,p16-tiktokcdn-com.akamaized.net,TikTok
+HOST-SUFFIX,bytedapm.com,TikTok
+HOST-SUFFIX,bytegecko-i18n.com,TikTok
+HOST-SUFFIX,bytegecko.com,TikTok
+HOST-SUFFIX,byteoversea.com,TikTok
+HOST-SUFFIX,capcut.com,TikTok
+HOST-SUFFIX,ibytedtos.com,TikTok
+HOST-SUFFIX,ibyteimg.com,TikTok
+HOST-SUFFIX,ipstatp.com,TikTok
+HOST-SUFFIX,isnssdk.com,TikTok
+HOST-SUFFIX,muscdn.com,TikTok
+HOST-SUFFIX,musical.ly,TikTok
+HOST-SUFFIX,sgpstatp.com,TikTok
+HOST-SUFFIX,snssdk.com,TikTok
+HOST-SUFFIX,tik-tokapi.com,TikTok
+HOST-SUFFIX,tiktok.com,TikTok
+HOST-SUFFIX,tiktokcdn-us.com,TikTok
+HOST-SUFFIX,tiktokcdn.com,TikTok
+HOST-SUFFIX,tiktokd.net,TikTok
+HOST-SUFFIX,tiktokd.org,TikTok
+HOST-SUFFIX,tiktokv.com,TikTok
+HOST-KEYWORD,musical.ly,TikTok
+HOST-KEYWORD,tiktok,TikTok
+USER-AGENT,TikTok*,TikTok
+
+#OPENAI
+# NAME: OpenAI
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2023-10-28 02:15:45
+# HOST: 1
+# HOST-KEYWORD: 1
+# HOST-SUFFIX: 12
+# TOTAL: 14
+HOST,ai.cn,OpenAI
+HOST-SUFFIX,ai.com,OpenAI
+HOST-SUFFIX,auth0.com,OpenAI
+HOST-SUFFIX,challenges.cloudflare.com,OpenAI
+HOST-SUFFIX,client-api.arkoselabs.com,OpenAI
+HOST-SUFFIX,events.statsigapi.net,OpenAI
+HOST-SUFFIX,featuregates.org,OpenAI
+HOST-SUFFIX,identrust.com,OpenAI
+HOST-SUFFIX,intercom.io,OpenAI
+HOST-SUFFIX,intercomcdn.com,OpenAI
+HOST-SUFFIX,poe.com,OpenAI
+HOST-SUFFIX,sentry.io,OpenAI
+HOST-SUFFIX,stripe.com,OpenAI
+HOST-SUFFIX,oaistatic.com,OpenAI
+HOST-SUFFIX,oaiusercontent.com,OpenAI
+HOST-KEYWORD,openai,OpenAI
