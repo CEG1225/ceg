@@ -1,4 +1,11 @@
 
+# 本地分流规则:相同规则下本地规则优先生效
+# 绕过企业证书过期
+# 其它
+host-suffix, local, direct
+# 抖音本地分流
+host-suffix, snssdk.com, direct
+host-suffix, amemv.com, direct
 
 host, p14-buy.itunes.apple.com, direct
 
@@ -9,6 +16,14 @@ host-wildcard, dd.al, direct
 host-wildcard, train03.icu, direct
 host-keyword, tt.vg, direct
 host-suffix, gitlab.com, direct
+
+host-keyword,apple, direct
+
+
+
+
+
+
 
 
 
