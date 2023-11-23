@@ -27,3 +27,9 @@ hostname = www.google.*,
 
 ^https?:\/\/www\.google\..*\/search url script-response-body https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/endlessgoogle.js
 
+#重写跳转
+
+# 浏览器google搜索重写 跳转到圈X重写合集
+
+^https?://www\.google\.com/search\?q=%E9%87%8D%E5%86%99.*$ url 302 https://yfamily.vercel.app/quantumultx.html
+
