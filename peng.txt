@@ -1,10 +1,1 @@
-trojan://29ea82cf-f956-42b2-a5dc-35feea39e7ff@108.181.24.37:443?security=tls&sni=glc-us1.windowsupdatea.com&type=tcp#%E5%8A%A0%E6%8B%BF%E5%A4%A7_Telegram@kxswa
-trojan://29ea82cf-f956-42b2-a5dc-35feea39e7ff@103.173.255.234:443?security=tls&sni=glc-vn.windowsupdatea.com&type=tcp#%E8%B6%8A%E5%8D%97_Telegram@kxswa
-trojan://29ea82cf-f956-42b2-a5dc-35feea39e7ff@103.173.255.21:443?security=tls&sni=glc-vn.windowsupdatea.com&type=tcp#%E8%B6%8A%E5%8D%97_Telegram@kxswa
-trojan://29ea82cf-f956-42b2-a5dc-35feea39e7ff@108.181.22.161:443?security=tls&sni=glc-us2.windowsupdatea.com&type=tcp#%E5%8A%A0%E6%8B%BF%E5%A4%A7_Telegram@kxswa
-trojan://29ea82cf-f956-42b2-a5dc-35feea39e7ff@103.81.85.238:443?security=tls&sni=glc-vn.windowsupdatea.com&type=tcp#%E8%B6%8A%E5%8D%97_Telegram@kxswa
-trojan://29ea82cf-f956-42b2-a5dc-35feea39e7ff@103.81.84.173:443?security=tls&sni=glc-vn.windowsupdatea.com&type=tcp#%E8%B6%8A%E5%8D%97_Telegram@kxswa
-trojan://29ea82cf-f956-42b2-a5dc-35feea39e7ff@36.133.1.43:38000?security=tls&sni=glc-sg1.windowsupdatea.com&type=tcp#%E9%A6%99%E6%B8%AF_Telegram@kxswa
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp4STFtSTFaYXZsYnVrZTRWbGw2OGx3@77.246.104.128:60225#%E4%BF%84%E7%BD%97%E6%96%AF%E8%81%94%E9%82%A6_Telegram@kxswa
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRMXFsUmtub045UHdHZUV4V1Z5VEtn@13.87.74.71:14564#%E8%8B%B1%E5%9B%BD_Telegram@kxswa
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXYzltd2FYb1ZleXpub0FYeHZheG9r@3.71.92.131:33108#%E5%BE%B7%E5%9B%BD_Telegram@kxswa
+
