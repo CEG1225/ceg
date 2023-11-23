@@ -1,1 +1,7 @@
 #重写去广告
+
+#微信公众号去广告 
+
+hostname=mp.weixin.qq.com
+
+^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Wechat.js
