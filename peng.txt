@@ -1,34 +1,282 @@
-vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogInZtK3dzK2djb3JlLTQ0MyIsDQogICJhZGQiOiAiZ2NvcmUuY29tIiwNCiAgInBvcnQiOiAiNDQzIiwNCiAgImlkIjogIjYwY2RlZDk3LWQ1N2YtNDkyZi1kMjQ3LTA3ZmEzZTcxYmE4YiIsDQogICJhaWQiOiAiMCIsDQogICJzY3kiOiAiYXV0byIsDQogICJuZXQiOiAid3MiLA0KICAidHlwZSI6ICJub25lIiwNCiAgImhvc3QiOiAiY2VnMTIyNS5saW5rIiwNCiAgInBhdGgiOiAiLzYwY2RlZDk3IiwNCiAgInRscyI6ICJ0bHMiLA0KICAic25pIjogImdjb3JlLmNvbSIsDQogICJhbHBuIjogIiIsDQogICJmcCI6ICIiDQp9
-vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogInZtK3dzK2djb3JlLWNsb25lIiwNCiAgImFkZCI6ICJoazItc3BlZWR0ZXN0LnRvb2xzLmdjb3JlLmNvbSIsDQogICJwb3J0IjogIjQ0MyIsDQogICJpZCI6ICI2MGNkZWQ5Ny1kNTdmLTQ5MmYtZDI0Ny0wN2ZhM2U3MWJhOGIiLA0KICAiYWlkIjogIjAiLA0KICAic2N5IjogImF1dG8iLA0KICAibmV0IjogIndzIiwNCiAgInR5cGUiOiAibm9uZSIsDQogICJob3N0IjogImNlZzEyMjUubGluayIsDQogICJwYXRoIjogIi82MGNkZWQ5NyIsDQogICJ0bHMiOiAidGxzIiwNCiAgInNuaSI6ICJoazItc3BlZWR0ZXN0LnRvb2xzLmdjb3JlLmNvbSIsDQogICJhbHBuIjogIiIsDQogICJmcCI6ICIiDQp9
-vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogInZtK3dzKzgwIiwNCiAgImFkZCI6ICJjYy5jZWcxMjI1LmxpbmsiLA0KICAicG9ydCI6ICI4MCIsDQogICJpZCI6ICJhYmU3NDFjZS1jZDBmLTQ1ZWUtZWMyYi05NjY3MDdiYzViNzEiLA0KICAiYWlkIjogIjAiLA0KICAic2N5IjogImF1dG8iLA0KICAibmV0IjogIndzIiwNCiAgInR5cGUiOiAibm9uZSIsDQogICJob3N0IjogIiIsDQogICJwYXRoIjogIi9hYmU3NDEiLA0KICAidGxzIjogIm5vbmUiLA0KICAic25pIjogIiIsDQogICJhbHBuIjogIiIsDQogICJmcCI6ICIiDQp9
-vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogInZtK3dzK2NmLTQ0MyIsDQogICJhZGQiOiAiY2MuY2VnMTIyNS5saW5rIiwNCiAgInBvcnQiOiAiNDQzIiwNCiAgImlkIjogImFiZTc0MWNlLWNkMGYtNDVlZS1lYzJiLTk2NjcwN2JjNWI3MSIsDQogICJhaWQiOiAiMCIsDQogICJzY3kiOiAiYXV0byIsDQogICJuZXQiOiAid3MiLA0KICAidHlwZSI6ICJub25lIiwNCiAgImhvc3QiOiAiIiwNCiAgInBhdGgiOiAiL2FiZTc0MSIsDQogICJ0bHMiOiAidGxzIiwNCiAgInNuaSI6ICIiLA0KICAiYWxwbiI6ICIiLA0KICAiZnAiOiAiIg0KfQ==
-vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogInZtK3dzKzQ0MytmYW5kYWkiLA0KICAiYWRkIjogIjEwMy4xODQuNDUuNjgiLA0KICAicG9ydCI6ICI0NDMiLA0KICAiaWQiOiAiYWJlNzQxY2UtY2QwZi00NWVlLWVjMmItOTY2NzA3YmM1YjcxIiwNCiAgImFpZCI6ICIwIiwNCiAgInNjeSI6ICJhdXRvIiwNCiAgIm5ldCI6ICJ3cyIsDQogICJ0eXBlIjogIm5vbmUiLA0KICAiaG9zdCI6ICJjYy5jZWcxMjI1LmxpbmsiLA0KICAicGF0aCI6ICIvYWJlNzQxIiwNCiAgInRscyI6ICJ0bHMiLA0KICAic25pIjogIiIsDQogICJhbHBuIjogIiIsDQogICJmcCI6ICIiDQp9
-vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogInZtK3dzKzQ0MytmYW5kYWkiLA0KICAiYWRkIjogIjEwMy4xODQuNDUuOTciLA0KICAicG9ydCI6ICI0NDMiLA0KICAiaWQiOiAiYWJlNzQxY2UtY2QwZi00NWVlLWVjMmItOTY2NzA3YmM1YjcxIiwNCiAgImFpZCI6ICIwIiwNCiAgInNjeSI6ICJhdXRvIiwNCiAgIm5ldCI6ICJ3cyIsDQogICJ0eXBlIjogIm5vbmUiLA0KICAiaG9zdCI6ICJjYy5jZWcxMjI1LmxpbmsiLA0KICAicGF0aCI6ICIvYWJlNzQxIiwNCiAgInRscyI6ICJ0bHMiLA0KICAic25pIjogIiIsDQogICJhbHBuIjogIiIsDQogICJmcCI6ICIiDQp9
-vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogInZtK3dzKzQ0MytmYW5kYWkiLA0KICAiYWRkIjogIjEwMy4xODQuNDUuNDYiLA0KICAicG9ydCI6ICI0NDMiLA0KICAiaWQiOiAiYWJlNzQxY2UtY2QwZi00NWVlLWVjMmItOTY2NzA3YmM1YjcxIiwNCiAgImFpZCI6ICIwIiwNCiAgInNjeSI6ICJhdXRvIiwNCiAgIm5ldCI6ICJ3cyIsDQogICJ0eXBlIjogIm5vbmUiLA0KICAiaG9zdCI6ICJjYy5jZWcxMjI1LmxpbmsiLA0KICAicGF0aCI6ICIvYWJlNzQxIiwNCiAgInRscyI6ICJ0bHMiLA0KICAic25pIjogIiIsDQogICJhbHBuIjogIiIsDQogICJmcCI6ICIiDQp9
-vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogInZtK3dzKzQ0MytmYW5kYWkiLA0KICAiYWRkIjogIjEwMy4xODQuNDQuMjUxIiwNCiAgInBvcnQiOiAiNDQzIiwNCiAgImlkIjogImFiZTc0MWNlLWNkMGYtNDVlZS1lYzJiLTk2NjcwN2JjNWI3MSIsDQogICJhaWQiOiAiMCIsDQogICJzY3kiOiAiYXV0byIsDQogICJuZXQiOiAid3MiLA0KICAidHlwZSI6ICJub25lIiwNCiAgImhvc3QiOiAiY2MuY2VnMTIyNS5saW5rIiwNCiAgInBhdGgiOiAiL2FiZTc0MSIsDQogICJ0bHMiOiAidGxzIiwNCiAgInNuaSI6ICIiLA0KICAiYWxwbiI6ICIiLA0KICAiZnAiOiAiIg0KfQ==
-vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogInZtK3dzKzQ0MytmYW5kYWkiLA0KICAiYWRkIjogIjEwMy4xODQuNDQuMzAiLA0KICAicG9ydCI6ICI0NDMiLA0KICAiaWQiOiAiYWJlNzQxY2UtY2QwZi00NWVlLWVjMmItOTY2NzA3YmM1YjcxIiwNCiAgImFpZCI6ICIwIiwNCiAgInNjeSI6ICJhdXRvIiwNCiAgIm5ldCI6ICJ3cyIsDQogICJ0eXBlIjogIm5vbmUiLA0KICAiaG9zdCI6ICJjYy5jZWcxMjI1LmxpbmsiLA0KICAicGF0aCI6ICIvYWJlNzQxIiwNCiAgInRscyI6ICJ0bHMiLA0KICAic25pIjogIiIsDQogICJhbHBuIjogIiIsDQogICJmcCI6ICIiDQp9
-vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogInZtK3dzKzQ0MytmYW5kYWkiLA0KICAiYWRkIjogIjIwMi44MS4yMzEuMTUwIiwNCiAgInBvcnQiOiAiNDQzIiwNCiAgImlkIjogImFiZTc0MWNlLWNkMGYtNDVlZS1lYzJiLTk2NjcwN2JjNWI3MSIsDQogICJhaWQiOiAiMCIsDQogICJzY3kiOiAiYXV0byIsDQogICJuZXQiOiAid3MiLA0KICAidHlwZSI6ICJub25lIiwNCiAgImhvc3QiOiAiY2MuY2VnMTIyNS5saW5rIiwNCiAgInBhdGgiOiAiL2FiZTc0MSIsDQogICJ0bHMiOiAidGxzIiwNCiAgInNuaSI6ICIiLA0KICAiYWxwbiI6ICIiLA0KICAiZnAiOiAiIg0KfQ==
-vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogInZtK3dzKzQ0MytmYW5kYWkiLA0KICAiYWRkIjogIjE5NC4xMjAuMjQuMjQxIiwNCiAgInBvcnQiOiAiNDQzIiwNCiAgImlkIjogImFiZTc0MWNlLWNkMGYtNDVlZS1lYzJiLTk2NjcwN2JjNWI3MSIsDQogICJhaWQiOiAiMCIsDQogICJzY3kiOiAiYXV0byIsDQogICJuZXQiOiAid3MiLA0KICAidHlwZSI6ICJub25lIiwNCiAgImhvc3QiOiAiY2MuY2VnMTIyNS5saW5rIiwNCiAgInBhdGgiOiAiL2FiZTc0MSIsDQogICJ0bHMiOiAidGxzIiwNCiAgInNuaSI6ICIiLA0KICAiYWxwbiI6ICIiLA0KICAiZnAiOiAiIg0KfQ==
-vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogInZtK3dzKzQ0MytmYW5kYWkiLA0KICAiYWRkIjogIjQ1LjE1Ni4yMi44NCIsDQogICJwb3J0IjogIjQ0MyIsDQogICJpZCI6ICJhYmU3NDFjZS1jZDBmLTQ1ZWUtZWMyYi05NjY3MDdiYzViNzEiLA0KICAiYWlkIjogIjAiLA0KICAic2N5IjogImF1dG8iLA0KICAibmV0IjogIndzIiwNCiAgInR5cGUiOiAibm9uZSIsDQogICJob3N0IjogImNjLmNlZzEyMjUubGluayIsDQogICJwYXRoIjogIi9hYmU3NDEiLA0KICAidGxzIjogInRscyIsDQogICJzbmkiOiAiIiwNCiAgImFscG4iOiAiIiwNCiAgImZwIjogIiINCn0=
-vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogInZtK3dzKzQ0MytmYW5kYWkiLA0KICAiYWRkIjogIjEwMy4xODQuNDUuMzEiLA0KICAicG9ydCI6ICI0NDMiLA0KICAiaWQiOiAiYWJlNzQxY2UtY2QwZi00NWVlLWVjMmItOTY2NzA3YmM1YjcxIiwNCiAgImFpZCI6ICIwIiwNCiAgInNjeSI6ICJhdXRvIiwNCiAgIm5ldCI6ICJ3cyIsDQogICJ0eXBlIjogIm5vbmUiLA0KICAiaG9zdCI6ICJjYy5jZWcxMjI1LmxpbmsiLA0KICAicGF0aCI6ICIvYWJlNzQxIiwNCiAgInRscyI6ICJ0bHMiLA0KICAic25pIjogIiIsDQogICJhbHBuIjogIiIsDQogICJmcCI6ICIiDQp9
-vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogInZtK3dzKzQ0MytmYW5kYWkiLA0KICAiYWRkIjogIjEwMy4xODQuNDUuNjYiLA0KICAicG9ydCI6ICI0NDMiLA0KICAiaWQiOiAiYWJlNzQxY2UtY2QwZi00NWVlLWVjMmItOTY2NzA3YmM1YjcxIiwNCiAgImFpZCI6ICIwIiwNCiAgInNjeSI6ICJhdXRvIiwNCiAgIm5ldCI6ICJ3cyIsDQogICJ0eXBlIjogIm5vbmUiLA0KICAiaG9zdCI6ICJjYy5jZWcxMjI1LmxpbmsiLA0KICAicGF0aCI6ICIvYWJlNzQxIiwNCiAgInRscyI6ICJ0bHMiLA0KICAic25pIjogIiIsDQogICJhbHBuIjogIiIsDQogICJmcCI6ICIiDQp9
-vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogInZtK3dzKzQ0MytmYW5kYWkiLA0KICAiYWRkIjogIjEwMy4xODQuNDQuMiIsDQogICJwb3J0IjogIjQ0MyIsDQogICJpZCI6ICJhYmU3NDFjZS1jZDBmLTQ1ZWUtZWMyYi05NjY3MDdiYzViNzEiLA0KICAiYWlkIjogIjAiLA0KICAic2N5IjogImF1dG8iLA0KICAibmV0IjogIndzIiwNCiAgInR5cGUiOiAibm9uZSIsDQogICJob3N0IjogImNjLmNlZzEyMjUubGluayIsDQogICJwYXRoIjogIi9hYmU3NDEiLA0KICAidGxzIjogInRscyIsDQogICJzbmkiOiAiIiwNCiAgImFscG4iOiAiIiwNCiAgImZwIjogIiINCn0=
-vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogInZtK3dzKzQ0MytmYW5kYWkiLA0KICAiYWRkIjogIjYyLjYwLjE2MC4xNTAiLA0KICAicG9ydCI6ICI0NDMiLA0KICAiaWQiOiAiYWJlNzQxY2UtY2QwZi00NWVlLWVjMmItOTY2NzA3YmM1YjcxIiwNCiAgImFpZCI6ICIwIiwNCiAgInNjeSI6ICJhdXRvIiwNCiAgIm5ldCI6ICJ3cyIsDQogICJ0eXBlIjogIm5vbmUiLA0KICAiaG9zdCI6ICJjYy5jZWcxMjI1LmxpbmsiLA0KICAicGF0aCI6ICIvYWJlNzQxIiwNCiAgInRscyI6ICJ0bHMiLA0KICAic25pIjogIiIsDQogICJhbHBuIjogIiIsDQogICJmcCI6ICIiDQp9
-vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogInZtK3dzKzQ0MytmYW5kYWkiLA0KICAiYWRkIjogIjYyLjYwLjE2MC4yMDYiLA0KICAicG9ydCI6ICI0NDMiLA0KICAiaWQiOiAiYWJlNzQxY2UtY2QwZi00NWVlLWVjMmItOTY2NzA3YmM1YjcxIiwNCiAgImFpZCI6ICIwIiwNCiAgInNjeSI6ICJhdXRvIiwNCiAgIm5ldCI6ICJ3cyIsDQogICJ0eXBlIjogIm5vbmUiLA0KICAiaG9zdCI6ICJjYy5jZWcxMjI1LmxpbmsiLA0KICAicGF0aCI6ICIvYWJlNzQxIiwNCiAgInRscyI6ICJ0bHMiLA0KICAic25pIjogIiIsDQogICJhbHBuIjogIiIsDQogICJmcCI6ICIiDQp9
-vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogInZtK3dzKzQ0MytmYW5kYWkiLA0KICAiYWRkIjogIjE1Mi4xMzYuMjI0LjE4NCIsDQogICJwb3J0IjogIjQ0MyIsDQogICJpZCI6ICJhYmU3NDFjZS1jZDBmLTQ1ZWUtZWMyYi05NjY3MDdiYzViNzEiLA0KICAiYWlkIjogIjAiLA0KICAic2N5IjogImF1dG8iLA0KICAibmV0IjogIndzIiwNCiAgInR5cGUiOiAibm9uZSIsDQogICJob3N0IjogImNjLmNlZzEyMjUubGluayIsDQogICJwYXRoIjogIi9hYmU3NDEiLA0KICAidGxzIjogInRscyIsDQogICJzbmkiOiAiIiwNCiAgImFscG4iOiAiIiwNCiAgImZwIjogIiINCn0=
-vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogInZtK3dzKzQ0MytmYW5kYWkiLA0KICAiYWRkIjogIjEwMy4xODQuNDQuMjA1IiwNCiAgInBvcnQiOiAiNDQzIiwNCiAgImlkIjogImFiZTc0MWNlLWNkMGYtNDVlZS1lYzJiLTk2NjcwN2JjNWI3MSIsDQogICJhaWQiOiAiMCIsDQogICJzY3kiOiAiYXV0byIsDQogICJuZXQiOiAid3MiLA0KICAidHlwZSI6ICJub25lIiwNCiAgImhvc3QiOiAiY2MuY2VnMTIyNS5saW5rIiwNCiAgInBhdGgiOiAiL2FiZTc0MSIsDQogICJ0bHMiOiAidGxzIiwNCiAgInNuaSI6ICIiLA0KICAiYWxwbiI6ICIiLA0KICAiZnAiOiAiIg0KfQ==
-vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogInZtK3dzKzQ0MytmYW5kYWkiLA0KICAiYWRkIjogIjEwMy4xODQuNDQuMTY1IiwNCiAgInBvcnQiOiAiNDQzIiwNCiAgImlkIjogImFiZTc0MWNlLWNkMGYtNDVlZS1lYzJiLTk2NjcwN2JjNWI3MSIsDQogICJhaWQiOiAiMCIsDQogICJzY3kiOiAiYXV0byIsDQogICJuZXQiOiAid3MiLA0KICAidHlwZSI6ICJub25lIiwNCiAgImhvc3QiOiAiY2MuY2VnMTIyNS5saW5rIiwNCiAgInBhdGgiOiAiL2FiZTc0MSIsDQogICJ0bHMiOiAidGxzIiwNCiAgInNuaSI6ICIiLA0KICAiYWxwbiI6ICIiLA0KICAiZnAiOiAiIg0KfQ==
-vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogInZtK3dzKzQ0MytmYW5kYWkiLA0KICAiYWRkIjogIjIxOS43Ni4xMy4xODMiLA0KICAicG9ydCI6ICI0NDMiLA0KICAiaWQiOiAiYWJlNzQxY2UtY2QwZi00NWVlLWVjMmItOTY2NzA3YmM1YjcxIiwNCiAgImFpZCI6ICIwIiwNCiAgInNjeSI6ICJhdXRvIiwNCiAgIm5ldCI6ICJ3cyIsDQogICJ0eXBlIjogIm5vbmUiLA0KICAiaG9zdCI6ICJjYy5jZWcxMjI1LmxpbmsiLA0KICAicGF0aCI6ICIvYWJlNzQxIiwNCiAgInRscyI6ICJ0bHMiLA0KICAic25pIjogIiIsDQogICJhbHBuIjogIiIsDQogICJmcCI6ICIiDQp9
-vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogInZtK3dzKzQ0MytmYW5kYWkiLA0KICAiYWRkIjogIjEwMy4xODQuNDUuMjMzIiwNCiAgInBvcnQiOiAiNDQzIiwNCiAgImlkIjogImFiZTc0MWNlLWNkMGYtNDVlZS1lYzJiLTk2NjcwN2JjNWI3MSIsDQogICJhaWQiOiAiMCIsDQogICJzY3kiOiAiYXV0byIsDQogICJuZXQiOiAid3MiLA0KICAidHlwZSI6ICJub25lIiwNCiAgImhvc3QiOiAiY2MuY2VnMTIyNS5saW5rIiwNCiAgInBhdGgiOiAiL2FiZTc0MSIsDQogICJ0bHMiOiAidGxzIiwNCiAgInNuaSI6ICIiLA0KICAiYWxwbiI6ICIiLA0KICAiZnAiOiAiIg0KfQ==
-vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogInZtK3dzKzQ0MytmYW5kYWkiLA0KICAiYWRkIjogIjQzLjE1NC4yMDkuMTE2IiwNCiAgInBvcnQiOiAiNDQzIiwNCiAgImlkIjogImFiZTc0MWNlLWNkMGYtNDVlZS1lYzJiLTk2NjcwN2JjNWI3MSIsDQogICJhaWQiOiAiMCIsDQogICJzY3kiOiAiYXV0byIsDQogICJuZXQiOiAid3MiLA0KICAidHlwZSI6ICJub25lIiwNCiAgImhvc3QiOiAiY2MuY2VnMTIyNS5saW5rIiwNCiAgInBhdGgiOiAiL2FiZTc0MSIsDQogICJ0bHMiOiAidGxzIiwNCiAgInNuaSI6ICIiLA0KICAiYWxwbiI6ICIiLA0KICAiZnAiOiAiIg0KfQ==
-vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogInZtK3dzKzQ0MytmYW5kYWkiLA0KICAiYWRkIjogIjE5OS4xNS43Ni4zNSIsDQogICJwb3J0IjogIjQ0MyIsDQogICJpZCI6ICJhYmU3NDFjZS1jZDBmLTQ1ZWUtZWMyYi05NjY3MDdiYzViNzEiLA0KICAiYWlkIjogIjAiLA0KICAic2N5IjogImF1dG8iLA0KICAibmV0IjogIndzIiwNCiAgInR5cGUiOiAibm9uZSIsDQogICJob3N0IjogImNjLmNlZzEyMjUubGluayIsDQogICJwYXRoIjogIi9hYmU3NDEiLA0KICAidGxzIjogInRscyIsDQogICJzbmkiOiAiIiwNCiAgImFscG4iOiAiIiwNCiAgImZwIjogIiINCn0=
-vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogInZtK3dzKzQ0MytmYW5kYWkiLA0KICAiYWRkIjogIjEwMy4xODQuNDQuMTI1IiwNCiAgInBvcnQiOiAiNDQzIiwNCiAgImlkIjogImFiZTc0MWNlLWNkMGYtNDVlZS1lYzJiLTk2NjcwN2JjNWI3MSIsDQogICJhaWQiOiAiMCIsDQogICJzY3kiOiAiYXV0byIsDQogICJuZXQiOiAid3MiLA0KICAidHlwZSI6ICJub25lIiwNCiAgImhvc3QiOiAiY2MuY2VnMTIyNS5saW5rIiwNCiAgInBhdGgiOiAiL2FiZTc0MSIsDQogICJ0bHMiOiAidGxzIiwNCiAgInNuaSI6ICIiLA0KICAiYWxwbiI6ICIiLA0KICAiZnAiOiAiIg0KfQ==
-vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogInZtK3dzKzQ0MytmYW5kYWkiLA0KICAiYWRkIjogIjEwMy4xODQuNDQuMzQiLA0KICAicG9ydCI6ICI0NDMiLA0KICAiaWQiOiAiYWJlNzQxY2UtY2QwZi00NWVlLWVjMmItOTY2NzA3YmM1YjcxIiwNCiAgImFpZCI6ICIwIiwNCiAgInNjeSI6ICJhdXRvIiwNCiAgIm5ldCI6ICJ3cyIsDQogICJ0eXBlIjogIm5vbmUiLA0KICAiaG9zdCI6ICJjYy5jZWcxMjI1LmxpbmsiLA0KICAicGF0aCI6ICIvYWJlNzQxIiwNCiAgInRscyI6ICJ0bHMiLA0KICAic25pIjogIiIsDQogICJhbHBuIjogIiIsDQogICJmcCI6ICIiDQp9
-vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogInZtK3dzKzQ0MytmYW5kYWkiLA0KICAiYWRkIjogIjEwMy4xODQuNDUuMTExIiwNCiAgInBvcnQiOiAiNDQzIiwNCiAgImlkIjogImFiZTc0MWNlLWNkMGYtNDVlZS1lYzJiLTk2NjcwN2JjNWI3MSIsDQogICJhaWQiOiAiMCIsDQogICJzY3kiOiAiYXV0byIsDQogICJuZXQiOiAid3MiLA0KICAidHlwZSI6ICJub25lIiwNCiAgImhvc3QiOiAiY2MuY2VnMTIyNS5saW5rIiwNCiAgInBhdGgiOiAiL2FiZTc0MSIsDQogICJ0bHMiOiAidGxzIiwNCiAgInNuaSI6ICIiLA0KICAiYWxwbiI6ICIiLA0KICAiZnAiOiAiIg0KfQ==
-vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogInZtK3dzKzQ0MytmYW5kYWkiLA0KICAiYWRkIjogIjEwMy4xODQuNDQuMzUiLA0KICAicG9ydCI6ICI0NDMiLA0KICAiaWQiOiAiYWJlNzQxY2UtY2QwZi00NWVlLWVjMmItOTY2NzA3YmM1YjcxIiwNCiAgImFpZCI6ICIwIiwNCiAgInNjeSI6ICJhdXRvIiwNCiAgIm5ldCI6ICJ3cyIsDQogICJ0eXBlIjogIm5vbmUiLA0KICAiaG9zdCI6ICJjYy5jZWcxMjI1LmxpbmsiLA0KICAicGF0aCI6ICIvYWJlNzQxIiwNCiAgInRscyI6ICJ0bHMiLA0KICAic25pIjogIiIsDQogICJhbHBuIjogIiIsDQogICJmcCI6ICIiDQp9
-vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogInZtK3dzKzQ0MytmYW5kYWkiLA0KICAiYWRkIjogIjEwMy4xODQuNDUuMTc1IiwNCiAgInBvcnQiOiAiNDQzIiwNCiAgImlkIjogImFiZTc0MWNlLWNkMGYtNDVlZS1lYzJiLTk2NjcwN2JjNWI3MSIsDQogICJhaWQiOiAiMCIsDQogICJzY3kiOiAiYXV0byIsDQogICJuZXQiOiAid3MiLA0KICAidHlwZSI6ICJub25lIiwNCiAgImhvc3QiOiAiY2MuY2VnMTIyNS5saW5rIiwNCiAgInBhdGgiOiAiL2FiZTc0MSIsDQogICJ0bHMiOiAidGxzIiwNCiAgInNuaSI6ICIiLA0KICAiYWxwbiI6ICIiLA0KICAiZnAiOiAiIg0KfQ==
-vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogInZtK3dzKzQ0MytmYW5kYWkiLA0KICAiYWRkIjogIjEwMy4xODQuNDUuMTQyIiwNCiAgInBvcnQiOiAiNDQzIiwNCiAgImlkIjogImFiZTc0MWNlLWNkMGYtNDVlZS1lYzJiLTk2NjcwN2JjNWI3MSIsDQogICJhaWQiOiAiMCIsDQogICJzY3kiOiAiYXV0byIsDQogICJuZXQiOiAid3MiLA0KICAidHlwZSI6ICJub25lIiwNCiAgImhvc3QiOiAiY2MuY2VnMTIyNS5saW5rIiwNCiAgInBhdGgiOiAiL2FiZTc0MSIsDQogICJ0bHMiOiAidGxzIiwNCiAgInNuaSI6ICIiLA0KICAiYWxwbiI6ICIiLA0KICAiZnAiOiAiIg0KfQ==
-vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogInZtK3dzKzQ0MytmYW5kYWkiLA0KICAiYWRkIjogIjEwMy4xODQuNDUuMiIsDQogICJwb3J0IjogIjQ0MyIsDQogICJpZCI6ICJhYmU3NDFjZS1jZDBmLTQ1ZWUtZWMyYi05NjY3MDdiYzViNzEiLA0KICAiYWlkIjogIjAiLA0KICAic2N5IjogImF1dG8iLA0KICAibmV0IjogIndzIiwNCiAgInR5cGUiOiAibm9uZSIsDQogICJob3N0IjogImNjLmNlZzEyMjUubGluayIsDQogICJwYXRoIjogIi9hYmU3NDEiLA0KICAidGxzIjogInRscyIsDQogICJzbmkiOiAiIiwNCiAgImFscG4iOiAiIiwNCiAgImZwIjogIiINCn0=
-vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogInZtK3dzKzQ0MytmYW5kYWkiLA0KICAiYWRkIjogIjEwMy4xODQuNDUuMjQ1IiwNCiAgInBvcnQiOiAiNDQzIiwNCiAgImlkIjogImFiZTc0MWNlLWNkMGYtNDVlZS1lYzJiLTk2NjcwN2JjNWI3MSIsDQogICJhaWQiOiAiMCIsDQogICJzY3kiOiAiYXV0byIsDQogICJuZXQiOiAid3MiLA0KICAidHlwZSI6ICJub25lIiwNCiAgImhvc3QiOiAiY2MuY2VnMTIyNS5saW5rIiwNCiAgInBhdGgiOiAiL2FiZTc0MSIsDQogICJ0bHMiOiAidGxzIiwNCiAgInNuaSI6ICIiLA0KICAiYWxwbiI6ICIiLA0KICAiZnAiOiAiIg0KfQ==
-vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogInZtK3dzKzQ0MytmYW5kYWkiLA0KICAiYWRkIjogIjEwMy4xODQuNDUuMTc3IiwNCiAgInBvcnQiOiAiNDQzIiwNCiAgImlkIjogImFiZTc0MWNlLWNkMGYtNDVlZS1lYzJiLTk2NjcwN2JjNWI3MSIsDQogICJhaWQiOiAiMCIsDQogICJzY3kiOiAiYXV0byIsDQogICJuZXQiOiAid3MiLA0KICAidHlwZSI6ICJub25lIiwNCiAgImhvc3QiOiAiY2MuY2VnMTIyNS5saW5rIiwNCiAgInBhdGgiOiAiL2FiZTc0MSIsDQogICJ0bHMiOiAidGxzIiwNCiAgInNuaSI6ICIiLA0KICAiYWxwbiI6ICIiLA0KICAiZnAiOiAiIg0KfQ==
-vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogInZtK3dzKzQ0MytmYW5kYWkiLA0KICAiYWRkIjogIjEwMy4xODQuNDUuNDEiLA0KICAicG9ydCI6ICI0NDMiLA0KICAiaWQiOiAiYWJlNzQxY2UtY2QwZi00NWVlLWVjMmItOTY2NzA3YmM1YjcxIiwNCiAgImFpZCI6ICIwIiwNCiAgInNjeSI6ICJhdXRvIiwNCiAgIm5ldCI6ICJ3cyIsDQogICJ0eXBlIjogIm5vbmUiLA0KICAiaG9zdCI6ICJjYy5jZWcxMjI1LmxpbmsiLA0KICAicGF0aCI6ICIvYWJlNzQxIiwNCiAgInRscyI6ICJ0bHMiLA0KICAic25pIjogIiIsDQogICJhbHBuIjogIiIsDQogICJmcCI6ICIiDQp9
+{
+  "log": {
+    "disabled": false,
+    "level": "info",
+    "timestamp": true
+  },
+  "experimental": {
+    "clash_api": {
+      "external_controller": "127.0.0.1:9090",
+      "external_ui": "ui",
+      "external_ui_download_url": "",
+      "external_ui_download_detour": "",
+      "secret": "",
+      "default_mode": "Rule"
+       },
+      "cache_file": {
+            "enabled": true,
+            "path": "cache.db",
+            "store_fakeip": true
+        }
+    },
+    "dns": {
+        "servers": [
+            {
+                "tag": "proxydns",
+                "address": "https://8.8.8.8/dns-query",             
+                "detour": "select"
+            },
+            {
+                "tag": "localdns",
+                "address": "h3://223.5.5.5/dns-query",
+                "detour": "direct"
+            },
+            {
+                "address": "rcode://refused",
+                "tag": "block"
+            },
+            {
+                "tag": "dns_fakeip",
+                "address": "fakeip"
+            }
+        ],
+        "rules": [
+            {
+                "outbound": "any",
+                "server": "localdns",
+                "disable_cache": true
+            },
+            {
+                "clash_mode": "Global",
+                "server": "proxydns"
+            },
+            {
+                "clash_mode": "Direct",
+                "server": "localdns"
+            },
+            {
+                "rule_set": "geosite-cn",
+                "server": "localdns"
+            },
+            {
+                 "rule_set": "geosite-geolocation-!cn",
+                 "server": "proxydns"
+            },
+             {
+                "rule_set": "geosite-geolocation-!cn",         
+                "query_type": [
+                    "A",
+                    "AAAA"
+                ],
+                "server": "dns_fakeip"
+            }
+          ],
+           "fakeip": {
+           "enabled": true,
+           "inet4_range": "198.18.0.0/15",
+           "inet6_range": "fc00::/18"
+         },
+          "independent_cache": true,
+          "final": "proxydns"
+        },
+      "inbounds": [
+    {
+      "type": "tun",
+      "inet4_address": "172.19.0.1/30",
+      "inet6_address": "fdfe:dcba:9876::1/126",
+      "auto_route": true,
+      "strict_route": true,
+      "sniff": true
+    }
+  ],
+  "outbounds": [
+    {
+      "tag": "select",
+      "type": "selector",
+      "default": "auto",
+      "outbounds": [
+        "auto",
+        "vless-hkg3-lite-2023091211100870",
+        "vmess-hkg3-lite-2023091211100870",
+        "hy2-hkg3-lite-2023091211100870",
+        "tuic5-hkg3-lite-2023091211100870"
+      ]
+    },
+    {
+      "type": "vless",
+      "tag": "vless-hkg3-lite-2023091211100870",
+      "server": "45.149.186.183",
+      "server_port": 2977,
+      "uuid": "23c6c3e4-843a-417b-9c96-0c3d290b8536",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.yahoo.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+      "reality": {
+          "enabled": true,
+          "public_key": "dmxNWWuiUHlJ-P45ZxyhO-LC8so_9nrB4Nbb1UIbcjc",
+          "short_id": "89c8c335"
+        }
+      }
+    },
+{
+            "server": "123.ceg.cloudns.org",
+            "server_port": 2083,
+            "tag": "vmess-hkg3-lite-2023091211100870",
+            "tls": {
+                "enabled": true,
+                "server_name": "123.ceg.cloudns.org",
+                "insecure": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "headers": {
+                    "Host": [
+                        "123.ceg.cloudns.org"
+                    ]
+                },
+                "path": "23c6c3e4-843a-417b-9c96-0c3d290b8536-vm",
+                "type": "ws"
+            },
+            "type": "vmess",
+            "security": "auto",
+            "uuid": "23c6c3e4-843a-417b-9c96-0c3d290b8536"
+        },
+    {
+        "type": "hysteria2",
+        "tag": "hy2-hkg3-lite-2023091211100870",
+        "server": "123.ceg.cloudns.org",
+        "server_port": 18156,
+        "password": "23c6c3e4-843a-417b-9c96-0c3d290b8536",
+        "tls": {
+            "enabled": true,
+            "server_name": "123.ceg.cloudns.org",
+            "insecure": false,
+            "alpn": [
+                "h3"
+            ]
+        }
+    },
+        {
+            "type":"tuic",
+            "tag": "tuic5-hkg3-lite-2023091211100870",
+            "server": "123.ceg.cloudns.org",
+            "server_port": 7833,
+            "uuid": "23c6c3e4-843a-417b-9c96-0c3d290b8536",
+            "password": "23c6c3e4-843a-417b-9c96-0c3d290b8536",
+            "congestion_control": "bbr",
+            "udp_relay_mode": "native",
+            "udp_over_stream": false,
+            "zero_rtt_handshake": false,
+            "heartbeat": "10s",
+            "tls":{
+                "enabled": true,
+                "server_name": "123.ceg.cloudns.org",
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ]
+            }
+        },
+    {
+      "tag": "direct",
+      "type": "direct"
+    },
+    {
+      "tag": "block",
+      "type": "block"
+    },
+    {
+      "tag": "dns-out",
+      "type": "dns"
+    },
+    {
+      "tag": "auto",
+      "type": "urltest",
+      "outbounds": [
+        "vless-hkg3-lite-2023091211100870",
+        "vmess-hkg3-lite-2023091211100870",
+        "hy2-hkg3-lite-2023091211100870",
+        "tuic5-hkg3-lite-2023091211100870"
+      ],
+      "url": "https://cp.cloudflare.com/generate_204",
+      "interval": "1m",
+      "tolerance": 50,
+      "interrupt_exist_connections": false
+    }
+  ],
+  "route": {
+      "rule_set": [
+            {
+                "tag": "geosite-geolocation-!cn",
+                "type": "remote",
+                "format": "binary",
+                "url": "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/geolocation-!cn.srs",
+                "download_detour": "select",
+                "update_interval": "1d"
+            },
+            {
+                "tag": "geosite-cn",
+                "type": "remote",
+                "format": "binary",
+                "url": "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/geolocation-cn.srs",
+                "download_detour": "select",
+                "update_interval": "1d"
+            },
+            {
+                "tag": "geoip-cn",
+                "type": "remote",
+                "format": "binary",
+                "url": "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geoip/cn.srs",
+                "download_detour": "select",
+                "update_interval": "1d"
+            }
+        ],
+    "auto_detect_interface": true,
+    "final": "select",
+    "rules": [
+      {
+        "outbound": "dns-out",
+        "protocol": "dns"
+      },
+      {
+        "clash_mode": "Direct",
+        "outbound": "direct"
+      },
+      {
+        "clash_mode": "Global",
+        "outbound": "select"
+      },
+      {
+        "rule_set": "geoip-cn",
+        "outbound": "direct"
+      },
+      {
+        "rule_set": "geosite-cn",
+        "outbound": "direct"
+      },
+      {
+      "ip_is_private": true,
+      "outbound": "direct"
+      },
+      {
+        "rule_set": "geosite-geolocation-!cn",
+        "outbound": "select"
+      }
+    ]
+  },
+    "ntp": {
+    "enabled": true,
+    "server": "time.apple.com",
+    "server_port": 123,
+    "interval": "30m",
+    "detour": "direct"
+  }
+}
